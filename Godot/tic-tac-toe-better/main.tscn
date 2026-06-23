@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://cfuhqjqk13h34"]
+
+[ext_resource type="Script" uid="uid://b8iptogqk6yj0" path="res://Main.cs" id="1_ig7tw"]
+
+[node name="Main" type="Control" unique_id=1056045884]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig7tw")
+
+[node name="GameLabel" type="Label" parent="." unique_id=1858555102]
+layout_mode = 0
+offset_left = 476.0
+offset_top = 51.0
+offset_right = 725.0
+offset_bottom = 110.0
+theme_override_font_sizes/font_size = 43
+text = "TIC TAK TOE"
+
+[node name="Label2" type="Label" parent="." unique_id=981446630]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 191.0
+offset_right = 277.0
+offset_bottom = 249.0
+text = "Player 1"
+
+[node name="Label3" type="Label" parent="." unique_id=775456288]
+layout_mode = 0
+offset_left = 878.0
+offset_top = 188.0
+offset_right = 1029.0
+offset_bottom = 246.0
+text = "Player 2"
+
+[node name="FirstPlayerName" type="LineEdit" parent="." unique_id=685103336]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 270.0
+offset_right = 331.0
+offset_bottom = 301.0
+text = "player 1"
+placeholder_text = "nickname"
+
+[node name="SecondPlayerName" type="LineEdit" parent="." unique_id=114307385]
+layout_mode = 0
+offset_left = 873.0
+offset_top = 273.0
+offset_right = 1073.0
+offset_bottom = 304.0
+text = "player 2"
+placeholder_text = "nickname"
+
+[node name="StartButton" type="Button" parent="." unique_id=1613900141]
+layout_mode = 0
+offset_left = 467.0
+offset_top = 432.0
+offset_right = 717.0
+offset_bottom = 530.0
+text = "start"

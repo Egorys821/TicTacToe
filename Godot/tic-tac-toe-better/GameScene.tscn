@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cdoy7b1m3eg7p"]
+
+[ext_resource type="Script" uid="uid://6jvwpntyn1ex" path="res://GameScene.cs" id="1_eqhe0"]
+
+[node name="GameScene" type="Node" unique_id=193799945]
+script = ExtResource("1_eqhe0")
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1186083041]
+offset_right = 1153.0
+offset_bottom = 644.0
+columns = 15
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=68642314]
+position = Vector2(576, 325)
